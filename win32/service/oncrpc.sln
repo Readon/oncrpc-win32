@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "inst_pm", "inst_pm.vcproj", "{7D31AD54-9B56-4640-A94B-89EA325CF513}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "oncrpc_static", "oncrpc_static.vcproj", "{E02ED7E6-8E08-4C27-96DA-CB241A7B38DB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "portmap", "service.vcproj", "{4068D211-2C7C-459C-BF0A-FF31ABD6CD92}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7D31AD54-9B56-4640-A94B-89EA325CF513} = {7D31AD54-9B56-4640-A94B-89EA325CF513}
+		{E02ED7E6-8E08-4C27-96DA-CB241A7B38DB} = {E02ED7E6-8E08-4C27-96DA-CB241A7B38DB}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D31AD54-9B56-4640-A94B-89EA325CF513}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7D31AD54-9B56-4640-A94B-89EA325CF513}.Debug|Win32.Build.0 = Debug|Win32
+		{7D31AD54-9B56-4640-A94B-89EA325CF513}.Release|Win32.ActiveCfg = Release|Win32
+		{7D31AD54-9B56-4640-A94B-89EA325CF513}.Release|Win32.Build.0 = Release|Win32
+		{E02ED7E6-8E08-4C27-96DA-CB241A7B38DB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E02ED7E6-8E08-4C27-96DA-CB241A7B38DB}.Debug|Win32.Build.0 = Debug|Win32
+		{E02ED7E6-8E08-4C27-96DA-CB241A7B38DB}.Release|Win32.ActiveCfg = Release|Win32
+		{E02ED7E6-8E08-4C27-96DA-CB241A7B38DB}.Release|Win32.Build.0 = Release|Win32
+		{4068D211-2C7C-459C-BF0A-FF31ABD6CD92}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4068D211-2C7C-459C-BF0A-FF31ABD6CD92}.Debug|Win32.Build.0 = Debug|Win32
+		{4068D211-2C7C-459C-BF0A-FF31ABD6CD92}.Release|Win32.ActiveCfg = Release|Win32
+		{4068D211-2C7C-459C-BF0A-FF31ABD6CD92}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
